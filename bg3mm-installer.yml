@@ -1,0 +1,29 @@
+name: BG3 Mod Manager
+version: Latest
+slug: bg3-mod-manager
+game_slug: bg3-mod-manager
+runner: wine
+
+script:
+  game:
+    exe: $GAMEDIR/BG3ModManager/BG3ModManager.exe
+    prefix: $GAMEDIR/wine_pfx
+
+  files:
+    - bg3mm: "https://github.com/LaughingLeader/BG3ModManager/releases/latest/download/BG3ModManager_Latest.zip"
+
+  installer:
+    - extract:
+        file: bg3mm
+        dst: $GAMEDIR/BG3ModManager
+
+    - task:
+        name: wineexec
+        executable: "winecfg"
+        prefix: $GAMEDIR/wine_pfx
+        arch: win64
+
+    - task:
+        name: winetricks
+        app: dotnetdesktop8
+        prefix: $GAMEDIR/wine_pfx

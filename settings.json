@@ -1,0 +1,18 @@
+{
+  "GameDataPath": "Z:\\home\\USERNAME\\.steam\\steam\\steamapps\\common\\Baldurs Gate 3\\Data",
+  "GameExecutablePath": "Z:\\home\\USERNAME\\.steam\\steam\\steamapps\\common\\Baldurs Gate 3\\bin\\bg3.exe",
+  "DocumentsFolderPathOverride": "Z:\\home\\USERNAME\\.steam\\steam\\steamapps\\compatdata\\1086940\\pfx\\drive_c\\users\\steamuser\\AppData\\Local\\Larian Studios\\Baldur's Gate 3",
+  "ExtenderSettings": {
+    "InsanityCheck": true
+  },
+  "ExtenderUpdaterSettings": {},
+  "Window": {
+    "X": -1.0,
+    "Y": -1.0,
+    "Width": -1.0,
+    "Height": -1.0
+  },
+  "Confirmations": {
+    "DisableAdminModeWarning": true
+  }
+}
